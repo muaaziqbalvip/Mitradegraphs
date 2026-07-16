@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash_background">
+
+    <ImageView
+        android:id="@+id/imgSplashLogo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/app_logo"
+        android:alpha="0"
+        android:scaleX="0.7"
+        android:scaleY="0.7" />
+
+    <TextView
+        android:id="@+id/tvSplashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MI TRADE ANALYZER"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.08"
+        android:alpha="0"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/tvSplashSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chart Pattern Matching"
+        android:textColor="@color/accent_light"
+        android:textSize="12sp"
+        android:alpha="0"
+        android:layout_marginTop="4dp" />
+
+    <ProgressBar
+        android:id="@+id/splashProgress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:layout_marginTop="32dp"
+        android:indeterminateTint="@color/accent" />
+
+</LinearLayout>

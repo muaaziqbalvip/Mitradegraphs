@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.muslimislam.patternmatcher'
+    namespace 'com.muslimislam.mitradeanalyzer'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.muslimislam.patternmatcher"
+        applicationId "com.muslimislam.mitradeanalyzer"
         minSdk 26
         targetSdk 34
         versionCode 1
